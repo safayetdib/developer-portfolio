@@ -80,6 +80,9 @@ nav li {
 	color: #757575;
 	margin-bottom: 30px;
 }
+.banner .btn-primary {
+	margin-right: 30px;
+}
 
 /* main section */
 main {
