@@ -5,6 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Developer Portfolio</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -33,9 +39,14 @@
 						sit delectus, similique doloribus nulla odio officia cumque optio
 						eligendi commodi.
 					</p>
-					<button class="btn-primary">Download CV</button>
+					<button class="btn-primary">
+						<i class="fa-solid fa-download"></i> Download CV
+					</button>
+					<button class="btn-secondary">
+						<i class="fa-solid fa-phone"></i> Contact
+					</button>
 				</div>
-				<img src="images/hardy.png" alt="" />
+				<img src="images/hardy.png" alt="banner image" />
 			</div>
 		</header>
 		<main>
@@ -82,7 +93,7 @@
 				</p>
 				<div class="skills-container">
 					<div class="skill">
-						<img src="/images/icons/js.png" alt="" />
+						<img src="/images/icons/js.png" alt="javascript icon" />
 						<h4 class="skill-title">Javascript</h4>
 						<p class="skill-description">
 							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit,
@@ -90,7 +101,7 @@
 						</p>
 					</div>
 					<div class="skill">
-						<img src="/images/icons/react.png" alt="" />
+						<img src="/images/icons/react.png" alt="react icon" />
 						<h4 class="skill-title">React</h4>
 						<p class="skill-description">
 							Alias cupiditate quidem corrupti at quos molestiae exercitationem
@@ -98,7 +109,7 @@
 						</p>
 					</div>
 					<div class="skill">
-						<img src="/images/icons/nodejs.png" alt="" />
+						<img src="/images/icons/nodejs.png" alt="node js icon" />
 						<h4 class="skill-title">Node JS</h4>
 						<p class="skill-description">
 							Quia ad laborum quod vitae culpa non, porro facilis. Consequuntur
@@ -106,7 +117,7 @@
 						</p>
 					</div>
 					<div class="skill">
-						<img src="/images/icons/mongo.png" alt="" />
+						<img src="/images/icons/mongo.png" alt="mongo db icon" />
 						<h4 class="skill-title">MongoDB</h4>
 						<p class="skill-description">
 							Veritatis blanditiis ad, nemo reiciendis temporibus reprehenderit
@@ -154,8 +165,8 @@
 					<div class="resume-content-section">
 						<h3 class="resume-title">My Experience</h3>
 						<div class="resume-item">
-							<h4 class="title">Master in Computer Engineering</h4>
-							<h5 class="sub-title">Harvard University / 2015 - 2017</h5>
+							<h4 class="title">Sr. Font End Developer</h4>
+							<h5 class="sub-title">Apple Inc / 2020 - Current</h5>
 							<p class="description">
 								List skill/technologies here. You can change the icon above to
 								any of the 1500+ FontAwesome 5 free icons available. Aenean
@@ -201,19 +212,25 @@
 						cupiditate, accusantium neque veniam.
 					</p>
 					<div class="contact-icons">
-						<a href=""><img src="/images/icons/facebook.png" alt="" /></a>
-						<a href=""><img src="/images/icons/insta.png" alt="" /></a>
-						<a href=""><img src="/images/icons/twitter.png" alt="" /></a>
+						<a href=""
+							><img src="/images/icons/facebook.png" alt="facebook"
+						/></a>
+						<a href=""><img src="/images/icons/insta.png" alt="instagram" /></a>
+						<a href=""><img src="/images/icons/twitter.png" alt="twitter" /></a>
 					</div>
 				</div>
 				<div class="contact-section">
 					<h3 class="section-title">Let's Message Me</h3>
 					<form action="">
-						<input type="text" name="" id="" placeholder="Your Name" />
-						<input type="email" name="" id="" placeholder="Your Email" />
+						<input type="text" name="name" id="name" placeholder="Your Name" />
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Your Email" />
 						<textarea
-							name=""
-							id=""
+							name="message"
+							id="message"
 							cols="30"
 							rows="10"
 							placeholder="Message"></textarea>

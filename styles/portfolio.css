@@ -7,15 +7,27 @@
 .text-primary {
 	color: #fd6e0a;
 }
-.btn-primary {
+button,
+input[type='submit'] {
 	height: 64px;
 	font-weight: 700;
 	font-size: 20px;
-	background: #fd6e0a;
-	color: #ffffff;
 	border: none;
 	border-radius: 5px;
-	padding: 18px 35px;
+	padding: 18px 30px;
+	cursor: pointer;
+}
+.btn-primary {
+	background: #fd6e0a;
+	color: #ffffff;
+}
+.btn-secondary {
+	color: #fd6e0a;
+	background: #ffffff;
+	border: 1px solid #fd6e0a;
+}
+button i {
+	margin-right: 8px;
 }
 
 .header {
@@ -42,6 +54,7 @@ nav ul {
 nav li {
 	list-style: none;
 	margin-left: 50px;
+	cursor: pointer;
 }
 
 /* banner styles */
